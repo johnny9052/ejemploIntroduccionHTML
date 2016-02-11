@@ -1,0 +1,214 @@
+h2 {
+    text-shadow: 5px 5px 5px #FF0000;
+}
+
+.gradiente {
+    width: 150px;
+    height: 150px;
+    background: -webkit-linear-gradient(red, blue); /* For Chrome Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, blue); /* Standard syntax (must be last) */
+}
+
+.gradienteIzqDer{
+    width: 150px;
+    height: 150px;
+    background: -webkit-linear-gradient(left, red , blue); /* For Chrome Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right, red , blue); /* Standard syntax (must be last) */
+}
+
+.gradienteDiag {
+    width: 150px;
+    height: 150px;
+    background: -webkit-linear-gradient(left top, red , blue); /* For Chrome Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom right, red , blue); /* Standard syntax (must be last) */
+}
+
+.gradienteMulticolor {
+    width: 200px;
+    height: 55px;
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+    background: linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+
+.gradienteRadial{
+    height: 150px;
+    width: 150px;
+    background: -webkit-radial-gradient(circle, red, yellow, green); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, red, yellow, green); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, red, yellow, green); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, red, yellow, green); /* Standard syntax (must be last) */
+}
+
+.rotacion2d {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    /* Rotate div */
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg); /* Standard syntax */
+}
+
+
+.sinTraslado {
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.traslado {
+    -ms-transform: translate(30px,20px); /* IE 9 */
+    -webkit-transform: translate(30px,20px); /* Chrome, Safari, Opera */
+    transform: translate(30px,20px); /* Standard syntax */
+}
+
+
+.tamanioNormal{
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.tamanioAumentado {
+    margin: 20px;
+    /*width (X-axis) and the height (Y-axis)*/
+    -ms-transform: scale(1.4,1.4); /* IE 9 */
+    -webkit-transform: scale(1.4,1.4); /* Chrome, Safari, Opera */
+    transform: scale(1.4,1.4); /* Standard syntax */
+}
+
+
+.sinCambio{
+    width: 100px;
+    height: 75px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.conCambio{
+    -ms-transform: skew(30deg,20deg); /* IE 9 */
+    -webkit-transform: skew(30deg,20deg); /* Chrome, Safari, Opera */
+    transform: skew(30deg,20deg); /* Standard syntax */
+}
+
+.transformacion {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: 2s; /* For Safari 3.1 to 6.0 */
+    transition: 2s;
+}
+
+.transformacion:hover {
+    width: 300px;
+}
+
+
+.transformacionRetardo {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: 1s linear 2s; /* For Safari 3.1 to 6.0 */
+    transition: 1s linear 2s;
+}
+
+.transformacionRetardo:hover {
+    width: 200px;
+}
+
+.animacion {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: incicioAnimacion 5s; /* Chrome, Safari, Opera */
+    animation: incicioAnimacion 5s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes incicioAnimacion {
+    from {background: red;}    
+    to {background: yellow;}
+}
+/* Standard syntax */
+@keyframes incicioAnimacion {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+
+
+.animacionSegmentada {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+
+    /*Infinito*/        
+    -webkit-animation: inicioAnimacionSegmentada 5s linear 2s infinite ; /* Chrome, Safari, Opera */
+    animation: inicioAnimacionSegmentada 5s linear 2s infinite;
+
+    /*Una sola iteracion*/
+
+    /*    -webkit-animation: inicioAnimacionSegmentada 5s;  Chrome, Safari, Opera 
+        animation: inicioAnimacionSegmentada 5s;*/
+
+    /*Infinito retornando animacion*/
+    /*    -webkit-animation: inicioAnimacionSegmentada 5s linear 2s infinite alternate;  Chrome, Safari, Opera 
+        animation: inicioAnimacionSegmentada 5s linear 2s infinite alternate;*/
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes inicioAnimacionSegmentada {
+    0%   {background:red; left:0px; bottom: 0px;}
+    25%  {background:yellow; left:200px; bottom:0px;}
+    50%  {background:blue; left:200px; bottom:200px;}
+    75%  {background:green; left:0px; bottom:200px;}
+    100% {background:red; left:0px; bottom:0px;}
+}
+
+/* Standard syntax */
+@keyframes inicioAnimacionSegmentada {
+    0%   {background:red; left:0px; bottom:0px;}
+    25%  {background:yellow; left:200px; bottom:0px;}
+    50%  {background:blue; left:200px; bottom:200px;}
+    75%  {background:green; left:0px; bottom:200px;}
+    100% {background:red; left:0px; bottom:0px;}
+}
+
+
+
+.transformacion3d{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: 2s; /* For Safari 3.1 to 6.0 */
+    transition: 2s;
+}
+
+.transformacion3d:hover{
+    -webkit-transform: rotateX(180deg); /* Chrome, Safari, Opera */
+    transform: rotateX(180deg);
+}
+
+
+.transformacion3d2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: 2s; /* For Safari 3.1 to 6.0 */
+    transition: 2s;
+}
+
+.transformacion3d2:hover{
+    -webkit-transform: rotateY(180deg); /* Chrome, Safari, Opera */
+    transform: rotateY(180deg);
+}
