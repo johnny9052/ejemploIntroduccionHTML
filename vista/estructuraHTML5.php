@@ -8,27 +8,10 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
-        
-         <style>
-            body {
-                font-family: Verdana, sans-serif; 
-                font-size:0.8em;
-            }            
-            header, nav, section, article, footer{
-                border:1px solid grey; margin:5px; padding:8px;
-            }            
-            nav ul {
-                margin:0; padding:0;
-            }
-            nav ul li {
-                display:inline; 
-                margin:5px;
-            }
-        </style>
-        
+        <link href="../recursos/css/estructuraHTML5.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-       <header>
+        <header>
             <h1>HTML5 Skeleton</h1>
         </header>
 
@@ -50,9 +33,9 @@ and open the template in the editor.
                     with a metropolitan area of over 13 million inhabitants.</p>
             </article>
 
-            
-            
-            
+
+
+
             <article>
                 <h2>Paris</h2>
                 <p>Paris is the capital and most populous city of France.</p>

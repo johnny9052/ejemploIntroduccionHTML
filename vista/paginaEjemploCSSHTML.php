@@ -10,40 +10,37 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div class="cabecera">
+        <div class="banner">
             BANNER O CABECERA
         </div>
 
 
         <div class="menu">
-            <div>
-                <ul>                    
-                    <li><a href="#">Link 1</a>
-
-
-                        <ul>                    
-                            <li><a href="#">Link 1</a></li>                    
-                            <li><a href="#">Link 2</a></li>                    
-                            <li><a href="#">Link 3</a></li>                    
-                            <li><a href="#">Link 4</a></li>                    
-                            <li><a href="#">Link 5</a></li>                    
-                        </ul>   
-                    </li>                    
-
-                    <li><a href="#">Link 2</a></li>                    
-                    <li><a href="#">Link 3</a></li>                    
-                    <li><a href="#">Link 4</a></li>                    
-                    <li><a href="#">Link 5</a></li>                    
-                </ul>                
-            </div>            
+            <ul>                    
+                <li><a href="#">Link 1</a></li>                    
+                <li><a href="#">Link 2</a></li>                    
+                <li><a href="#">Link 3</a></li>                    
+                <li><a href="#">Link 4</a></li>                    
+                <li><a href="#">Link 5</a></li>                    
+            </ul>   
         </div>
+        
+        
+        
+        
 
-        <div class="articulo">
+
+
+        <div class="contenido">
             ARTICULO
         </div>
 
+        
+        
         <div class="footer">
             FOOTER O PIE DE PAGINA
         </div>
+        
+        
     </body>
 </html>

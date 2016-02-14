@@ -151,6 +151,20 @@
             </tr>
 
 
+            <tr>
+                <td>
+                    <a href="vista/generarPDF.php">22. Generar PDF</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="vista/grillaDatos.php">23. Grilla de datos</a>
+                </td>
+            </tr>
+
+
+
 
 
 

@@ -76,8 +76,23 @@ and open the template in the editor.
         <input type="text" class="campoTexto">
         <input type="text" class="campoTexto">
         
-        <input type="text" class="campoTexto" required="required">
-        <input type="text" class="campoTexto" required="required">
+        
+        
+        
+        
+        <input type="text" class="campoTexto" required>
+        <input type="text" class="campoTexto" required>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         <br>
         <br>

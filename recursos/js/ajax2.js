@@ -27,7 +27,7 @@ function enviarDatosAjax() {
     arrayParameters.push(newArg('tipoRespuesta', tipoRespuesta));
     
     var send = arrayParameters.join('&');    
-    sendRequest('../controlador/gestionRecepcion.php', send, enviarDatosAjax_processResponse);
+    sendRequestPost('../controlador/gestionRecepcion.php', send, enviarDatosAjax_processResponse);
 
 
 }

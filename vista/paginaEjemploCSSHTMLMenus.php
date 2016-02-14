@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div class="cabecera">
+        <div class="banner">
             BANNER O CABECERA
         </div>
 
@@ -45,7 +45,7 @@ and open the template in the editor.
             </div>            
         </div>
 
-        <div class="articulo">
+        <div class="contenido">
             ARTICULO
         </div>
 
