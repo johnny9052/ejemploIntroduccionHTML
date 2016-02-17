@@ -1,0 +1,217 @@
+body { 
+    background-color: #eafadd; 
+} 
+
+.banner{
+    width: 90%;
+    height: 100px;
+    background-color:#cccccc ;
+    border: 1px solid #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;    
+    border-radius: 10px 10px 0px 0px;
+}
+
+.menu{
+    width: 15%;
+    height: 700px;
+    background-color:#cccccc ;
+    border: 1px solid #000000;
+    margin-left: 5%;    
+    float: left;
+    text-align: center;   
+    box-shadow: 5px 0px 5px 0px;
+}
+
+.contenido{
+    width: 75%;
+    height: 700px;
+    background-color:#cccccc ;
+    border: 1px solid #000000;        
+    margin-left: 20%;
+    text-align: center;    
+}
+
+.footer{
+    width: 90%;
+    height: 100px;
+    background-color:#cccccc ;
+    border: 1px solid #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;    
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+/*****************************************************************************************/
+/*****************************ESTILOS DEL MENU********************************************/
+/*****************************************************************************************/
+
+
+/* Starter CSS for Flyout Menu */
+#cssmenu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+#cssmenu ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cssmenu ul {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+
+#cssmenu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+#cssmenu ul li.hover,#cssmenu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+#cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+#cssmenu ul ul li {
+    float: none;
+}
+
+#cssmenu ul li:hover > ul {
+    visibility: visible;
+}
+
+#cssmenu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#cssmenu ul li {
+    float: none;
+}
+
+/* Custom Stuff */
+#cssmenu span,#cssmenu a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFF; /*COLOR DEL TEXTO DEL MENU*/
+    width: 100%;
+}
+
+#cssmenu {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    width: 200px;
+}
+
+#cssmenu:after,#cssmenu ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#cssmenu > ul > li:first-child {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu > ul > li:last-child {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu > ul > li ul ul li:first-child {
+    -moz-border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    border-radius: 0 5px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu > ul > li ul ul li:last-child {
+    -moz-border-radius: 0 0 5px 0;
+    -webkit-border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#cssmenu ul,#cssmenu li {
+    width: 100%;
+    color: #9999ff;
+}
+
+
+#cssmenu li {
+    background-color: #6666ff; /*COLOR DE FONDO DE LAS OPCIONES PRINCIPALES*/
+}
+
+#cssmenu li:hover{
+    background-color: #ccccff;/*COLOR DE FONDO DE LAS OPCIONES PRINCIPALES CUANDO SE PARAN EN ELLAS*/
+}
+
+#cssmenu li:hover > a,#cssmenu li.active > a {
+    color: #FFF; /*COLOR DEL TEXTO CUANDO SE SELECCIONA UN MENU*/
+}
+
+#cssmenu a {    
+    line-height: 160%;
+    padding: 16px 8px 16px 28px;
+    width: 164px;
+}
+
+
+#cssmenu ul ul {    
+    width: 200px;
+}
+
+
+#cssmenu ul ul li {
+    background: #ff3300;/*COLOR DEL FONDO DE LOS SUBMENUS*/
+}
+
+
+#cssmenu ul ul li:hover {
+    background: #ccccff;/*COLOR DEL FONDO DE LOS SUBMENUS CUANDO SE PARAN EN ELLOS*/
+}
+
+
+

@@ -1,0 +1,115 @@
+body { 
+    background-color:#eafadd;       
+} 
+
+h1 { 
+    color:#0000cc; 
+    font-family:times new roman; 
+    font-size:25px; 
+    text-align:center; 
+    text-decoration:underline; 
+} 
+
+p { 
+    color:#555555; 
+    font-family:verdana; 
+    text-align:justify; 
+} 
+
+.resaltado 
+{ 
+    color:#000000; 
+    background-color:#ffff00; 
+    font-style:italic; 
+} 
+
+
+
+
+#cabecera 
+{ 
+    font-family:Times New Roman; 
+    font-size:30px; 
+    text-align:center; 
+    color:#0000ff; 
+    background-color:#bbbbbb; 
+} 
+
+
+table ,tr ,td{
+    border: 1px solid black;     
+}
+
+td{
+    padding: 20px;
+    padding-right: 60px;
+}
+
+.fondoRojo{
+    background-color: #ff3300;    
+}
+
+.fondoAzul{
+    background-color: #0000ff;
+}
+
+.recuadro{
+    background-color: #33ff66;
+}
+
+.recuadro:hover{
+    background-color: #ffff00;
+    font-size: 50px;
+    color: red;
+}
+
+.carros{
+    background-image: url('../imagenes/carro.jpg');
+    width: 500px;
+    height: 500px;
+    background-repeat: round;
+}
+
+.carrosPequeno{
+    background-image: url('../imagenes/carro.jpg');
+    width: 100%;
+    height: 150px;
+    position: fixed;         
+}
+
+
+
+.campoTexto{    
+    border: 1px solid green;         
+    border-radius: 5px;   
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;        
+    font-family: Arial, san-serif; 
+    font-weight:bold;    
+    text-transform: uppercase;  
+    outline:0px;
+}
+
+
+.campoTexto:focus{
+    border: 2px groove blue;           
+}
+
+input:required:invalid {
+    border: 1px solid red;    
+}
+
+input:required:valid {
+    border: 1px solid green;
+    background-color: #ccffcc;
+}
+
+
+
+.sombras{
+    box-shadow: 0px 0px 50px blue; /*sombra hacia afuerda del elemento*/
+    -webkit-box-shadow: 0px 0px 50px blue;
+    -moz-box-shadow: 0px 0px 50px blue;
+    -o-box-shadow: 0px 0px 50px blue;
+    cursor: pointer;
+}
