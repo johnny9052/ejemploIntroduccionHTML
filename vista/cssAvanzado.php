@@ -87,6 +87,8 @@ and open the template in the editor.
                         
                     </div>
                 </td>
+                
+                
                 <td>
                     <div class="tamanioNormal">
                         
@@ -95,6 +97,8 @@ and open the template in the editor.
                         
                     </div>
                 </td>
+                
+                
                 <td>
                     <div class="sinCambio">
                         
@@ -116,6 +120,14 @@ and open the template in the editor.
                         
                     </div>
                 </td>
+                
+                
+                
+                
+                
+                
+                
+                
                 <td>
                     <div class="transformacionRetardo">
                         
