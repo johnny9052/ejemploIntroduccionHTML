@@ -13,8 +13,8 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
     //comprobamos si el archivo ha subido
     if ($file && move_uploaded_file($_FILES['archivo']['tmp_name'], "../recursos/imagenes/" . $carpeta . "/" . $file)) {
         //sleep(3);//retrasamos la petición 3 segundos
-        echo $file; //devolvemos el nombre del archivo para pintar la imagen
+        echo $file.' almacenado correctamente'; //devolvemos el nombre del archivo para pintar la imagen
     }
 } else {
-    throw new Exception("Error Processing Request", 1);
+    echo "error";
 }

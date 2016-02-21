@@ -1,0 +1,10 @@
+abrir bloc de notas
+
+pegar 
+
+	php_value upload_max_filesize 40M
+	php_value post_max_size 40M
+
+
+cLICK EN Guardar, y cuando pregunte la ruta en la parte inferior dar en todos los archivos, 
+COn esto deja crearlo como .htaccess, recordar que despues de almacenado no se puede modificar.

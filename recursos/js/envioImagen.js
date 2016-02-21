@@ -41,7 +41,7 @@ function enviarImagen() {
         },
         //una vez finalizado correctamente
         success: function (data) {
-            alert("Exito");
+            alert(data);
         },
         error: function () {
         }
