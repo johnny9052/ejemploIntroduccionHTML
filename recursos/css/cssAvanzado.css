@@ -126,6 +126,8 @@ h2 {
     width: 200px;
 }
 
+
+
 .animacion {
     width: 100px;
     height: 100px;
@@ -198,6 +200,8 @@ h2 {
     -webkit-transform: rotateX(180deg); /* Chrome, Safari, Opera */
     transform: rotateX(180deg);
 }
+
+
 
 
 .transformacion3d2{

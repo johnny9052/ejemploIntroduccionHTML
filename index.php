@@ -164,6 +164,13 @@
             </tr>
 
 
+            <tr>
+                <td>
+                    <a href="vista/EnvioImagenes.php">24. Envio de imagenes con AJAX</a>
+                </td>
+            </tr>
+
+
 
 
 

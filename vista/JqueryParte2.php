@@ -32,7 +32,7 @@ and open the template in the editor.
                     <h4>Cantidad</h4>
                 </td>
                 <td>
-                    <input type="number" required id="txtCantidad" name="cantidad" value="10">
+                    <input type="text" required id="txtCantidad" name="cantidad" value="10">
                 </td>
             </tr>
 
