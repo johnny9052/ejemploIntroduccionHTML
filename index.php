@@ -170,12 +170,12 @@
                 </td>
             </tr>
 
-
-
-
-
-
+            <tr>
+                <td>
+                    <a href="vista/Dashboard.php">25. DASHBOARD</a>
+                </td>
+            </tr>
+            
         </table>
-
     </body>
 </html>
