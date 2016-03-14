@@ -43,7 +43,7 @@ and open the template in the editor.
                     <h3>3. Ejercicio: Factorial</h3>
                 </td>
                 <td>
-                    <label>Numero</label> <input type="text" id="txtNumeroFactorial"/>
+                    <label>Numero</label> <input type="number" id="txtNumeroFactorial"/>
                 </td>
                 <td>
                     <input type="button" value="Calcular" onclick="calcularFactorial();"/>
@@ -62,6 +62,9 @@ and open the template in the editor.
                         <option value="5000">Tarro aceite</option>
                     </select>
                 </td>
+                
+                
+                
                 <td>
                     <input type="button" value="Calcular iva" onclick="calcularIVA();"/>
                 </td>
@@ -113,7 +116,8 @@ and open the template in the editor.
                     </form>
                 </td>
                 <td>
-                    <input type="button" value="Opciones seleccionadas" onclick="opcionesSeleccionadas();"/>
+                    <input type="button" value="Opciones seleccionadas" 
+                           onclick="opcionesSeleccionadas();"/>
                 </td>
             </tr>
 

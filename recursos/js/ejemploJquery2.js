@@ -2,7 +2,6 @@
 $(document).ready(function () {
     $("#btnSaludar").click(identificarCampos);// selector por id   
     $("#btnCalcular").click(enviarDatosAjax);// selector por id   
-
 });
 
 function identificarCampos() {

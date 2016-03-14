@@ -1,16 +1,16 @@
 
-
 function mostrarMensaje() {
     alert("Hola, ya muestro el mensaje");
 }
+
 
 
 function saludar() {
     var nombre = document.getElementById("txtNombre").value;
     var apellido = document.getElementById("txtApellido").value;
 
-    if (nombre != "") {
-        if (apellido != "") {
+    if (nombre !== "") {
+        if (apellido !== "") {
             alert("Hola " + nombre + " " + apellido + ", como estas");
         } else {
             alert("Ingrese apellido");
@@ -20,8 +20,12 @@ function saludar() {
     }
 }
 
+
+
+
 function calcularFactorial() {
     var num = document.getElementById("txtNumeroFactorial").value;
+
     var resultado = 1;
 
     for (var x = 1; x <= num; x++) {
@@ -32,6 +36,9 @@ function calcularFactorial() {
 }
 
 
+
+
+
 function calcularIVA() {
     var precio = document.getElementById("selProducto").value;
     var iva = parseFloat(precio) * 0.16;
@@ -39,6 +46,10 @@ function calcularIVA() {
     document.getElementById("lblResultadoIVA").innerHTML = iva;
     alert(iva);
 }
+
+
+
+
 
 function queGusta() {
     var opcion;
@@ -63,14 +74,20 @@ function opcionesSeleccionadas() {
 }
 
 
+
+
+
+
 function mostrarOcultar() {
-    if (document.getElementById("selOcultarMostrar").style.display == "none") {
+    if (document.getElementById("selOcultarMostrar").style.display === "none") {
         document.getElementById("selOcultarMostrar").style.display = "block";
     } else {
         document.getElementById("selOcultarMostrar").style.display = "none";
     }
 
 }
+
+
 
 
 function cambiarEstilo(color) {
@@ -88,6 +105,9 @@ function cambiarEstilo(color) {
     }
 }
 
+
+
+
 function cambiarClase(color) {
     if (color === "rojo") {
         document.getElementById("recuadroColor").className = "fondoRojo";
@@ -97,10 +117,15 @@ function cambiarClase(color) {
     }
 }
 
+
+
+
+
 function evaluar() {
     var expresion = document.getElementById("txtExpresion").value;
     alert(eval(expresion));
 }
+
 
 
 function insertHTML() {

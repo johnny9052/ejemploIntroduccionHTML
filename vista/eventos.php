@@ -20,7 +20,7 @@ and open the template in the editor.
                 </td>
 
                 <td>
-                    <input type="button" value="presioname" onclick="mostrarMensajeEjer1();"
+                    <input type="button" value="presioname" onclick="mostrarMensaje();"
                 </td>
             </tr>
 
@@ -32,7 +32,7 @@ and open the template in the editor.
                 </td>
 
                 <td>
-                    <input type="button" value="presioname" ondblclick="mostrarMensaje()" >                    
+                    <input type="button" value="presioname" ondblclick="mostrarMensaje();" >                    
                 </td>
             </tr>
 
@@ -45,7 +45,7 @@ and open the template in the editor.
                 </td>
 
                 <td>
-                    <input type="text" value="cambia mi texto!!" onchange="mostrarMensaje()" >
+                    <input type="text" value="cambia mi texto!!" onchange="mostrarMensaje();" >
                 </td>
             </tr>
 
@@ -57,7 +57,7 @@ and open the template in the editor.
                 </td>
 
                 <td>
-                    <input type="text" value="Seleccioname!!"  onfocus="mostrarMensaje()">
+                    <input type="text" value="Seleccioname!!"  onfocus="mostrarMensaje();">
                 </td>
             </tr>
 
@@ -70,7 +70,7 @@ and open the template in the editor.
                 </td>
 
                 <td>
-                    <input type="button" value="Pasa por mi!!" onmouseout="mostrarMensaje()">
+                    <input type="button" value="Pasa por mi!!" onmouseout="mostrarMensaje();">
                 </td>               
             </tr>
 

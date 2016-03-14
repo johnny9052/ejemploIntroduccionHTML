@@ -7,11 +7,13 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <!--<title></title>-->
 
         <link href="../recursos/css/menu.css" type="text/css" rel="stylesheet">
-        <script type="text/javascript" src="../recursos/js/jquery/jquery-1.9.1.js"></script>    
-        <script type="text/javascript" src="../recursos/js/ejemploJquery2.js"></script>                
+        <script type="text/javascript" 
+        src="../recursos/js/jquery/jquery-1.9.1.js"></script>    
+        <script type="text/javascript" 
+        src="../recursos/js/ejemploJquery2.js"></script>                
     </head>
     <body>
         <input type="button" onclick="identificarCampos()" value="Identificar campos">
@@ -83,6 +85,7 @@ and open the template in the editor.
                 <td>
                     <select id="selTipoRespuesta" name="tipoRespuesta">                                                
                         <option value="1">NO</option>
+                        <option value="2">SI</option>
                     </select>
                 </td>
             </tr>

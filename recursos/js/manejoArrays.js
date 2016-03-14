@@ -1,62 +1,67 @@
-var vector = new Array();
+var lista = new Array();
 
 function anadir(){
     var valor = document.getElementById("txtValor").value;
-    vector.push(valor);
-    document.getElementById("estadoVector").innerHTML= vector;
+    lista.push(parseInt(valor));
+    document.getElementById("estadoVector").innerHTML= lista;
     document.getElementById("txtValor").value="";
 }
 
+
+
 function eliminarUltimo(){    
-    var valor= vector.pop();
+    var valor= lista.pop();
     alert("el valor eliminado fue "+valor);
-    document.getElementById("estadoVector").innerHTML= vector;
+    document.getElementById("estadoVector").innerHTML= lista;
     document.getElementById("txtValor").value="";
 }
 
 
 function eliminarPrimero(){    
-    var valor= vector.shift();
+    var valor= lista.shift();
     alert("el valor eliminado fue "+valor);
-    document.getElementById("estadoVector").innerHTML= vector;
+    document.getElementById("estadoVector").innerHTML= lista;
     document.getElementById("txtValor").value="";
 }
 
 
 function invertir(){
-    vector = vector.reverse();
-    document.getElementById("estadoVector").innerHTML= vector;
+    lista = lista.reverse();
+    document.getElementById("estadoVector").innerHTML= lista;
 }
 
 
 function ordenar(){
-    vector = vector.sort();               
-    document.getElementById("estadoVector").innerHTML= vector;
+    lista = lista.sort();               
+    document.getElementById("estadoVector").innerHTML= lista;
 }
 
 function anadirInicio(){
     var valor = document.getElementById("txtValor").value;
-    vector.unshift(valor);
-    document.getElementById("estadoVector").innerHTML= vector;
+    lista.unshift(valor);
+    document.getElementById("estadoVector").innerHTML= lista;
     document.getElementById("txtValor").value="";
 }
 
 
+
+
+
 function buscarElemento(){
     var valor =prompt('Ingrese valor:','xxxxxxxx');//segundo parametro valor por defecto
-    alert("Esta en la posicion "+vector.indexOf(valor));    
+    alert("Esta en la posicion "+lista.indexOf(valor));    
 }
-
 
 
 function anadirElementosPosicion(){
     var valor =prompt('Ingrese valor:','');//segundo parametro valor por defecto
     var posicion = prompt('En que posicion la quiere añadir?:','');//segundo parametro valor por defecto
-    vector.splice(posicion,0,valor); //el cero indica la cantidad de elementos a borrar despues de la posicion indicada
-    document.getElementById("estadoVector").innerHTML= vector;
+    lista.splice(posicion,0,valor); //el cero indica la cantidad de elementos a borrar 
+                                    //despues de la posicion indicada
+    document.getElementById("estadoVector").innerHTML= lista;
 }
 
 
 function tamanoVector(){
-    alert(vector.length);
+    alert(lista.length);
 }
