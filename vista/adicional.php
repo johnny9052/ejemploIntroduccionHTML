@@ -15,7 +15,7 @@ and open the template in the editor.
             <tr>
                 <td>
                     <input type="button" value="numero aleatorio" 
-                           onclick="numeroAleatorio()">
+                           onclick="numeroAleatorio();">
                 </td>
                 
                 <td>

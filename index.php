@@ -150,7 +150,6 @@
                 </td>
             </tr>
 
-
             <tr>
                 <td>
                     <a href="vista/generarPDF.php">22. Generar PDF</a>
@@ -175,7 +174,7 @@
                     <a href="vista/Dashboard.php">25. DASHBOARD</a>
                 </td>
             </tr>
-            
+
         </table>
     </body>
 </html>
