@@ -1,6 +1,6 @@
 <?php
 
-require_once('../recursos/html2pdf/html2pdf.class.php'); // Se carga la libreria
+require_once('../recursos/html2pdf_4.0/html2pdf.class.php'); // Se carga la libreria
 
 ob_start(); //Habilita el buffer para la salida de datos 
 ob_get_clean(); //Limpia lo que actualmente tenga el buffer
@@ -32,8 +32,6 @@ for ($cont = 0; $cont < 20; $cont++) {
 }
 
 $content.="</table>";
-
-
 $content.= "</page>";
 
 

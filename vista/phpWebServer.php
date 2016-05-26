@@ -12,7 +12,8 @@ and open the template in the editor.
         <script type="text/javascript" src="../recursos/js/phpWebServer.js"></script>
     </head>
     <body>
-        <form onsubmit="return enviarInformacion(formulario);" name="formulario" method="post" action="../controlador/gestionRecepcion.php">
+        <!--        onsubmit="return enviarInformacion(formulario);"-->
+        <form name="formulario" method="post" action="../controlador/gestionRecepcion.php">
             <table>
                 <tr>
                     <td>
@@ -37,7 +38,7 @@ and open the template in the editor.
                         <h4>Valor</h4>
                     </td>
                     <td>
-                        <input type="text" required id="txtValor" name="valor">
+                        <input type="number" required id="txtValor" name="valor">
                     </td>
                 </tr>
 
@@ -60,7 +61,7 @@ and open the template in the editor.
                         <h4>% descuento</h4>
                     </td>
                     <td>
-                        <input type="number" required id="txtPorcentajeDescuento" name="porcentajeDecuento">
+                        <input type="number" required id="txtPorcentajeDescuento" name="porcentajeDescuento">
                     </td>
                 </tr>
 

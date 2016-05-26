@@ -10,20 +10,18 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        
+
         <table border="1">
             <?php
-                $temp = "hola mundo";                
-                for($x=0;$x<100;$x++){
-                    echo "<tr><td>fsfdfs</td><td>".$temp." ".
-                            $x."</td></tr>";
-                }                                
+            $temp = "hola mundo";
+            for ($x = 0; $x < 100; $x++) {
+                echo "<tr><td>" . $temp . "</td></tr>";
+            }
             ?>            
         </table>
-        
-        
-        <input type="text" value="<?php 
-        echo "si seguimos haciendo ruido";?>" >
-        
+
+
+        <input type="text" value="<?php echo "Ingrese nombre"; ?>" >
+
     </body>
 </html>

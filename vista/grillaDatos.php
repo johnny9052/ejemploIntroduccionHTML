@@ -10,10 +10,13 @@ and open the template in the editor.
         <title></title>
         <script type="text/javascript" src="../recursos/js/jquery/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="../recursos/datatables/js/jquery.dataTables.js"></script>
-        <link rel="stylesheet" href="../recursos/datatables/css/jquery.dataTables.css" />                
+        <link rel="stylesheet" href="../recursos/datatables/css/jquery.dataTables.css" />               
         <script type="text/javascript" src="../recursos/js/grillaDatos.js"></script>
     </head>
     <body>
+        
+        <h1>URL: https://datatables.net/</h1>
+        
         <div id="listado">
 
         </div>

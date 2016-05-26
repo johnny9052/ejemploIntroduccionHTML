@@ -1,6 +1,8 @@
 <?php
 
-$content = "<table id='listadoEstudiantes' class='display' cellspacing='0' width='100%'>";
+$content = "<table id='listadoEstudiantes' "
+        . "class='display' cellspacing='0' "
+        . "width='100%'>";
 $content.="<thead>";
 $content.="<tr>";
 $content.="<th>Codigo</th>";

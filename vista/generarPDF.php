@@ -10,7 +10,8 @@ and open the template in the editor.
         <title></title>                
     </head>
     <body>
-        <form name="formPDF" method="post" action="../controlador/gestionPDF.php" target="_blank">
+        <form name="formPDF" method="post" 
+              action="../controlador/gestionPDF.php" target="_blank">
             <input type="submit" value="Generar PDF">
         </form>
     </body>
