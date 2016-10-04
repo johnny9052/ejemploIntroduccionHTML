@@ -5,6 +5,12 @@ function mostrarMensaje() {
 
 
 
+
+
+
+
+
+
 function saludar() {
     var nombre = document.getElementById("txtNombre").value;
     var apellido = document.getElementById("txtApellido").value;
@@ -51,6 +57,8 @@ function calcularIVA() {
 
 
 
+
+
 function queGusta() {
     var opcion;
     for (var i = 0; i < document.formu.rdEj5.length; i++) {
@@ -60,6 +68,10 @@ function queGusta() {
     }
     alert("Lo que te gusta es " + document.formu.rdEj5[opcion].value);
 }
+
+
+
+
 
 
 function opcionesSeleccionadas() {
@@ -125,6 +137,9 @@ function evaluar() {
     var expresion = document.getElementById("txtExpresion").value;
     alert(eval(expresion));
 }
+
+
+
 
 
 

@@ -22,6 +22,11 @@ and open the template in the editor.
                 </td>
             </tr>
 
+            
+            
+            
+            
+            
             <tr>
                 <td>
                     <h3>2. Ejercicio: Saludador</h3>
@@ -37,6 +42,9 @@ and open the template in the editor.
                 </td>
             </tr>
 
+            
+            
+            
 
             <tr>
                 <td>
@@ -50,6 +58,9 @@ and open the template in the editor.
                 </td>
             </tr>
 
+            
+            
+            
             <tr>
                 <td>
                     <h3>4. Ejercicio: Calcular iva producto</h3>
@@ -61,10 +72,7 @@ and open the template in the editor.
                         <option value="3000">Kilo arroz</option>
                         <option value="5000">Tarro aceite</option>
                     </select>
-                </td>
-                
-                
-                
+                </td>                                              
                 <td>
                     <input type="button" value="Calcular iva" onclick="calcularIVA();"/>
                 </td>
@@ -88,9 +96,12 @@ and open the template in the editor.
                 </td>
                 <td> 
                     <form name="formu">
-                        <label>Motos</label><input id="rb1" type="radio" name="rdEj5" value="Motos">
-                        <label>Carros</label><input id="rb2" type="radio" name="rdEj5" value="Carros">
-                        <label>Aviones</label><input id="rb3" type="radio" name="rdEj5" value="Aviones">
+                        <label>Motos</label><input id="rb1" type="radio" name="rdEj5" 
+                                                   value="Motos">
+                        <label>Carros</label><input id="rb2" type="radio" name="rdEj5" 
+                                                    value="Carros">
+                        <label>Aviones</label><input id="rb3" type="radio" name="rdEj5" 
+                                                     value="Aviones">
                     </form>
                 </td>
                 <td>
@@ -155,7 +166,7 @@ and open the template in the editor.
 
                 <td>
                     <input type="button" value="Cambiar clase a rojo" onclick="cambiarClase('rojo');"/>
-                    <input type="button" value="Cambiar clase a azul" onclick="cambiarClase('azul');"/>                    
+                    <input type="button" value="Cambiar clase a azul" onclick="cambiarClase('azul');"/>                                        
                 </td>
             </tr>
 

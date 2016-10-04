@@ -7,7 +7,8 @@
 
         <title></title>
     </head>
-    <body>        
+    <body> 
+                
         <table>
             <tr>
                 <td>
@@ -111,14 +112,6 @@
 
             <tr>
                 <td>
-                    <a href="vista/validacionCampoHTML5.php">17. Validaciones de campos con HTML5</a>
-                </td>
-            </tr>
-
-
-
-            <tr>
-                <td>
                     <a href="vista/jquery.php">18. JQUERY</a>
                 </td>
             </tr>
@@ -129,6 +122,13 @@
                     <a href="vista/phpWeb.php">19. PHP INTRODUCCION</a>
                 </td>
             </tr>
+
+            <tr>
+                <td>
+                    <a href="vista/validacionCampoHTML5.php">17. Validaciones de campos con HTML5</a>
+                </td>
+            </tr>
+
 
 
             <tr>

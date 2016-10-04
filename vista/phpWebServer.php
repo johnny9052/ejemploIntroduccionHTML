@@ -9,11 +9,13 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
 
-        <script type="text/javascript" src="../recursos/js/phpWebServer.js"></script>
+        <script type="text/javascript" 
+        src="../recursos/js/phpWebServer.js"></script>
     </head>
     <body>
         <!--        onsubmit="return enviarInformacion(formulario);"-->
-        <form name="formulario" method="post" action="../controlador/gestionRecepcion.php">
+        <form name="formulario" method="post" 
+              action="../controlador/gestionRecepcion.php">
             <table>
                 <tr>
                     <td>
@@ -54,14 +56,13 @@ and open the template in the editor.
                         </select>
                     </td>
                 </tr>
-
-
                 <tr>
                     <td>
                         <h4>% descuento</h4>
                     </td>
                     <td>
-                        <input type="number" required id="txtPorcentajeDescuento" name="porcentajeDescuento">
+                        <input type="number" required id="txtPorcentajeDescuento" 
+                               name="porcentajeDescuento">
                     </td>
                 </tr>
 
@@ -95,9 +96,12 @@ and open the template in the editor.
         </form>
 
         <?php
+        
+        
         if (isset($_REQUEST['respuesta'])) {
             echo $_REQUEST['respuesta'];
         }
         ?>
     </body>
 </html>
+

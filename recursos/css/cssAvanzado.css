@@ -11,6 +11,10 @@ h2 {
     background: linear-gradient(red, blue); /* Standard syntax (must be last) */
 }
 
+
+
+
+
 .gradienteIzqDer{
     width: 150px;
     height: 150px;
@@ -19,6 +23,13 @@ h2 {
     background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
     background: linear-gradient(right, red , blue); /* Standard syntax (must be last) */
 }
+
+
+
+
+
+
+
 
 .gradienteDiag {
     width: 150px;
@@ -29,6 +40,10 @@ h2 {
     background: linear-gradient(bottom right, red , blue); /* Standard syntax (must be last) */
 }
 
+
+
+
+
 .gradienteMulticolor {
     width: 200px;
     height: 55px;
@@ -38,6 +53,8 @@ h2 {
     background: linear-gradient(right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
 }
 
+
+
 .gradienteRadial{
     height: 150px;
     width: 150px;
@@ -46,6 +63,8 @@ h2 {
     background: -moz-radial-gradient(circle, red, yellow, green); /* For Fx 3.6 to 15 */
     background: radial-gradient(circle, red, yellow, green); /* Standard syntax (must be last) */
 }
+
+
 
 .rotacion2d {
     width: 150px;
@@ -132,16 +151,20 @@ h2 {
     width: 100px;
     height: 100px;
     background: red;
-    -webkit-animation: incicioAnimacion 5s; /* Chrome, Safari, Opera */
-    animation: incicioAnimacion 5s;
+    -webkit-animation: inicioAnimacion 5s; /* Chrome, Safari, Opera */
+    animation: inicioAnimacion 5s;
 }
+
+
+
+
 /* Chrome, Safari, Opera */
-@-webkit-keyframes incicioAnimacion {
+@-webkit-keyframes inicioAnimacion {
     from {background: red;}    
     to {background: yellow;}
 }
 /* Standard syntax */
-@keyframes incicioAnimacion {
+@keyframes inicioAnimacion {
     from {background: red;}
     to {background: yellow;}
 }
@@ -200,6 +223,10 @@ h2 {
     -webkit-transform: rotateX(180deg); /* Chrome, Safari, Opera */
     transform: rotateX(180deg);
 }
+
+
+
+
 
 
 

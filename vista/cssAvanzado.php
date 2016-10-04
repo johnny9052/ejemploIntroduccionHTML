@@ -144,7 +144,10 @@ and open the template in the editor.
                     <div class="animacion">
                         
                     </div>
-                </td>            
+                </td>  
+                
+                
+                
                 <td>
                     <h2>Animacion segmentada ciclo infinito</h2>
                 </td>

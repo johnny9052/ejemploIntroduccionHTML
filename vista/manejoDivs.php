@@ -24,6 +24,9 @@ and open the template in the editor.
             <p>Descripcion del tema</p>
         </div>
         
+        
+        
+        
          <div style="background-color: #33ff66; color: red">
             <h3>Titulo</h3>
             <p>Descripcion del tema</p>

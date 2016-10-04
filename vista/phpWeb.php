@@ -17,11 +17,14 @@ and open the template in the editor.
             for ($x = 0; $x < 100; $x++) {
                 echo "<tr><td>" . $temp . "</td></tr>";
             }
-            ?>            
+            ?>                                            
         </table>
+        
+        
+        
 
 
-        <input type="text" value="<?php echo "Ingrese nombre"; ?>" >
+        <input type="text" value="<?php echo "Ingrese nombre"; ?>" >        
 
     </body>
 </html>

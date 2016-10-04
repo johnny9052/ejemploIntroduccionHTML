@@ -23,6 +23,8 @@ and open the template in the editor.
             </ul>
         </nav>
 
+        
+                
         <section>
 
             <h2>Famous Cities</h2>
@@ -32,9 +34,6 @@ and open the template in the editor.
                 <p>London is the capital city of England. It is the most populous city in the United Kingdom,
                     with a metropolitan area of over 13 million inhabitants.</p>
             </article>
-
-
-
 
             <article>
                 <h2>Paris</h2>

@@ -10,10 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
         <div class="banner">
             BANNER O CABECERA
-        </div>
-
+        </div>                                                                   
+        
 
         <div class="menu">
             <ul>                    
@@ -35,6 +36,9 @@ and open the template in the editor.
             ARTICULO
         </div>
 
+        
+        
+        
         
         
         <div class="footer">

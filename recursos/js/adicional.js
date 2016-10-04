@@ -1,7 +1,17 @@
+
+
 function numeroAleatorio() {
     alert(Math.floor(Math.random() * (20 - 10 + 1)) + 10);
     //Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
 }
+
+
+
+
+
+
+
+
 
 function cast() {
     var num = prompt("Ingrese numero:", "");
@@ -13,11 +23,19 @@ function cast() {
 }
 
 
+
+
 function iniciarAccion() {
     setTimeout(function () {
         alert("Hola mundo");        
     }, 1500);
 }
+
+
+
+
+
+
 
 
 function iniciarAccionInfinita() {

@@ -2,10 +2,14 @@ var lista = new Array();
 
 function anadir(){
     var valor = document.getElementById("txtValor").value;
-    lista.push(parseInt(valor));
+    lista.push(valor);
     document.getElementById("estadoVector").innerHTML= lista;
     document.getElementById("txtValor").value="";
 }
+
+
+
+
 
 
 
@@ -25,16 +29,23 @@ function eliminarPrimero(){
 }
 
 
+
+
 function invertir(){
     lista = lista.reverse();
     document.getElementById("estadoVector").innerHTML= lista;
 }
 
 
+
+
 function ordenar(){
     lista = lista.sort();               
     document.getElementById("estadoVector").innerHTML= lista;
 }
+
+
+
 
 function anadirInicio(){
     var valor = document.getElementById("txtValor").value;
@@ -47,17 +58,25 @@ function anadirInicio(){
 
 
 
+
 function buscarElemento(){
     var valor =prompt('Ingrese valor:','xxxxxxxx');//segundo parametro valor por defecto
     alert("Esta en la posicion "+lista.indexOf(valor));    
 }
 
 
+
+
+
+
 function anadirElementosPosicion(){
-    var valor =prompt('Ingrese valor:','');//segundo parametro valor por defecto
-    var posicion = prompt('En que posicion la quiere añadir?:','');//segundo parametro valor por defecto
-    lista.splice(posicion,0,valor); //el cero indica la cantidad de elementos a borrar 
-                                    //despues de la posicion indicada
+    //segundo parametro valor por defecto
+    var valor =prompt('Ingrese valor:','');
+    //segundo parametro valor por defecto
+    var posicion = prompt('En que posicion la quiere añadir?:','');
+    //el cero indica la cantidad de elementos a borrar 
+    //despues de la posicion indicada
+    lista.splice(posicion,0,valor);                                     
     document.getElementById("estadoVector").innerHTML= lista;
 }
 

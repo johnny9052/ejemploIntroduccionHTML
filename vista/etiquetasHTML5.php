@@ -9,10 +9,23 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+                                                           
+        
         <input type="date">
         <br>
+        
+        
+        
+        
+        
         <input type="datetime-local">
         <br>
+        
+        
+        
+        
+        
+        
         <input type="file">
 
 
@@ -23,8 +36,21 @@ and open the template in the editor.
         <label>etiqueta numero</label>
         <input type="number" min="0" max="100" step="10">
         <br>
+        
+        
+        
+        
+        
+        
+        
         <label>rango</label>
         <input type="range">
+        
+        
+        
+        
+        
+        
         <br>
         <input type="text" x-webkit-speech />
 
@@ -41,6 +67,11 @@ and open the template in the editor.
 
 
 
+        
+        
+        
+        
+        
         <label>Barra de progreso</label>
         <progress max="100"></progress>
         <progress max="100" value="60"></progress>
@@ -85,9 +116,21 @@ and open the template in the editor.
 
         <label>Video</label>
         <br>
+        
+        
+        
+             
+        <br>
+        <label>Audio</label>
+        <br>
+        <audio controls autobuffer> <!-- autoplay loop -->
+            <source src="../recursos/audio/cancion.mp3"><!-- .ogg  .wav -->            
+        </audio>
 
+        <br>
 
-        <video poster controls autoplay width="400" height="400"><!-- autoplay width height -->
+<!-- autoplay width height -->
+        <video poster controls autoplay width="400px" height="400px">
             <source src="../recursos/video/kungFuPanda2.mp4" 
                     type="video/mp4">
             <source src="../recursos/video/kungFuPanda2.webm" 
@@ -100,15 +143,7 @@ and open the template in the editor.
         
         
         
-        
-        <br>
-        <label>Audio</label>
-        <br>
-        <audio controls autobuffer> <!-- autoplay loop -->
-            <source src="../recursos/audio/cancion.mp3"><!-- .ogg  .wav -->            
-        </audio>
-
-        
+   
         
         
         

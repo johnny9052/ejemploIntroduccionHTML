@@ -1,12 +1,19 @@
 <?php
 
-isset($_REQUEST['nombre']) ? $nombre = $_REQUEST['nombre'] : $nombre = "";
-isset($_REQUEST['cantidad']) ? $cantidad = $_REQUEST['cantidad'] : $cantidad = "";
-isset($_REQUEST['valor']) ? $valor = $_REQUEST['valor'] : $valor = "";
-isset($_REQUEST['descuento']) ? $descuento = $_REQUEST['descuento'] : $descuento = "";
-isset($_REQUEST['porcentajeDescuento']) ? $porcentajeDescuento = $_REQUEST['porcentajeDescuento'] : $porcentajeDescuento = "";
-isset($_REQUEST['porcentajeIVA']) ? $porcentajeIVA = $_REQUEST['porcentajeIVA'] : $porcentajeIVA = "";
-isset($_REQUEST['tipoRespuesta']) ? $tipoRespuesta = $_REQUEST['tipoRespuesta'] : $tipoRespuesta = "";
+$nombre = isset($_REQUEST['nombre']) ?  $_REQUEST['nombre'] : "";
+$cantidad  = isset($_REQUEST['cantidad']) ? $_REQUEST['cantidad'] : "";
+$valor= isset($_REQUEST['valor']) ? $_REQUEST['valor'] : "";
+$descuento =isset($_REQUEST['descuento']) ?  $_REQUEST['descuento'] : "";
+$porcentajeDescuento =isset($_REQUEST['porcentajeDescuento']) ?  
+        $_REQUEST['porcentajeDescuento'] : "";
+$porcentajeIVA = isset($_REQUEST['porcentajeIVA']) ?  
+        $_REQUEST['porcentajeIVA'] : "";
+$tipoRespuesta = isset($_REQUEST['tipoRespuesta']) ?  
+        $_REQUEST['tipoRespuesta'] : "";
+
+
+
+
 
 $total = ($valor * $cantidad) + ((($valor * $cantidad) * $porcentajeIVA) / 100);
 
@@ -16,7 +23,6 @@ if ($descuento == 1) {
 }
 
 $respuesta = "El producto " . $nombre . " tiene un valor todal de " . $total;
-
 
 
 if ($tipoRespuesta == 1) {
