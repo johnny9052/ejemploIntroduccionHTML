@@ -1,6 +1,9 @@
+
+
 body{
     background-color: #E5E6E7;
 }
+
 
 a{
     text-decoration: none;
@@ -15,11 +18,9 @@ a:hover{
     border-radius: 0.5em;
 }
 
-
-
 .punto{
     text-decoration: none;
-    color: black;
+    color: red;
     font-family: inherit;
     font-size: 20px;
     font-weight: bold;

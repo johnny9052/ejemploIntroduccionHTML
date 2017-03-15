@@ -1,7 +1,7 @@
 // Cuando se encuentra listo el doc esto es lo primero que se ejecutara
 $(document).ready(function () {
     $("#btnSaludar").click(saludar);// selector por id
-    $("#btnLlenarCampos").click(llenarCampos);// selector por id
+    $("#btnLlenarCampos").click(llenarCampos);// selector por id       
     $("#btnCambiarTexto").click(cambiarTexto);// selector por id    
     $("#btnInsertar").click(insertarHTML);// selector por id  
     $("#btnRemoverClase").click(removerClase);// selector por id      
@@ -18,13 +18,36 @@ function llenarCampos() {
     $(".cajaTexto").val("Ya tengo algo");
 }
 
+
+
+
+
+
+
 function cambiarTexto() {
     $("#lblPunto3").text("Este es el nuevo texto!!");
 }
 
+
+
+
+
+
+
+
+
 function insertarHTML() {
-    $("#divFormulario").html('Ingrese nombre:<input type="text" id="nombre"><br>Ingrese clave:<input type="text" id="clave"><br><input type="submit" value="confirmar">');
+    $("#divFormulario").html(
+            'Ingrese nombre:<input type="text" id="nombre">\n\
+            <br>Ingrese clave:<input type="text" id="clave">\n\
+            <br><input type="submit" value="confirmar">');
 }
+
+
+
+
+
+
 
 function agregarClase() {
     $("label").addClass("punto");
@@ -32,14 +55,22 @@ function agregarClase() {
 
 function removerClase() {
     $("label").removeClass();
+
 }
 
+
+
+
+
+
+
+
 function mostrar() {
-$("#textOC").show("slow");
-$("#textOC2").fadeIn("slow");
+    $("#textOC").show("slow");
+    $("#textOC2").fadeIn("slow");
 }
 
 function ocultar() {
-$("#textOC").hide("slow");
-$("#textOC2").fadeOut("slow");
+    $("#textOC").hide("slow");
+    $("#textOC2").fadeOut("slow");
 }

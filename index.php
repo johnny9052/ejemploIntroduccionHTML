@@ -8,7 +8,7 @@
         <title></title>
     </head>
     <body> 
-                
+
         <table>
             <tr>
                 <td>
@@ -70,6 +70,18 @@
             <tr>
                 <td>
                     <a href="vista/paginaEjemploCSSHTMLMenus.php">10. Pagina de ejemplo menu subitems</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="vista/cssResponsive.php">10. CSS Responsive</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="vista/cssResponsiveDinamico.php">10. CSS Responsive ARCHIVOS DINAMICOS</a>
                 </td>
             </tr>
 
@@ -174,6 +186,16 @@
                     <a href="vista/Dashboard.php">25. DASHBOARD</a>
                 </td>
             </tr>
+
+            <tr>
+                <td>
+                    <a href="vista/Correos.php">26. Envio de correos</a>
+                </td>
+            </tr>
+
+
+
+
 
         </table>
     </body>

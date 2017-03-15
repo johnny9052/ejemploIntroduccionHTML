@@ -23,8 +23,7 @@ function enviarDatosAjax() {
     arrayParameters.push(newArg('valor', valor));
     arrayParameters.push(newArg('descuento', descuento));
     arrayParameters.push(newArg('porcentajeDescuento', porcentajeDescuento));
-    arrayParameters.push(newArg('porcentajeIVA', porcentajeIVA));
-    arrayParameters.push(newArg('tipoRespuesta', tipoRespuesta));
+    arrayParameters.push(newArg('porcentajeIVA', porcentajeIVA));    
     
     var send = arrayParameters.join('&');    
     sendRequestPost('../controlador/gestionRecepcion.php', send, enviarDatosAjax_processResponse);

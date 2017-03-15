@@ -78,17 +78,6 @@ and open the template in the editor.
                 </td>
             </tr>
             <tr>
-                <td>
-                    <h4>¿Quiere la respuesta en el servidor?</h4>
-                </td>
-                <td>
-                    <select id="selTipoRespuesta" name="tipoRespuesta">                                                
-                        <option value="1">NO</option>
-                    </select>
-                </td>
-            </tr>
-
-            <tr>
                 <td>                  
                     <input type="button" value="Calcular" id="btnCalcular">
                 </td>

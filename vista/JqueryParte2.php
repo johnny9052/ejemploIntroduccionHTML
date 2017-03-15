@@ -16,7 +16,9 @@ and open the template in the editor.
         src="../recursos/js/ejemploJquery2.js"></script>                
     </head>
     <body>
-        <input type="button" onclick="identificarCampos()" value="Identificar campos">
+        
+        <input type="button" id="btnIndentificar" 
+               value="Identificar campos">
 
 
         <table>
@@ -25,7 +27,8 @@ and open the template in the editor.
                     <h4>Nombre producto</h4>
                 </td>
                 <td>
-                    <input type="text" required id="txtNombre" name="nombre" value="ingrese nombre">
+                    <input type="text" required id="txtNombre" 
+                           name="nombre" value="ingrese nombre">
                 </td>
             </tr>
 
@@ -34,7 +37,8 @@ and open the template in the editor.
                     <h4>Cantidad</h4>
                 </td>
                 <td>
-                    <input type="text" required id="txtCantidad" name="cantidad" value="10">
+                    <input type="text" required id="txtCantidad" 
+                           name="cantidad" value="10">
                 </td>
             </tr>
 
@@ -43,9 +47,11 @@ and open the template in the editor.
                     <h4>Valor</h4>
                 </td>
                 <td>
-                    <input type="text" required id="txtValor" name="valor" value="1000">
+                    <input type="text" required id="txtValor" 
+                           name="valor" value="1000">
                 </td>
             </tr>
+                                            
 
             <tr>
                 <td>
@@ -66,7 +72,8 @@ and open the template in the editor.
                     <h4>% descuento</h4>
                 </td>
                 <td>
-                    <input type="number" required id="txtPorcentajeDescuento" name="porcentajeDecuento" value="3">
+                    <input type="number" required id="txtPorcentajeDescuento" 
+                           name="porcentajeDecuento" value="3">
                 </td>
             </tr>
 
@@ -75,21 +82,11 @@ and open the template in the editor.
                     <h4>% IVA</h4>
                 </td>
                 <td>
-                    <input type="number" required id="txtPorcentajeIVA" name="porcentajeIVA" value="16">
+                    <input type="number" required id="txtPorcentajeIVA" 
+                           name="porcentajeIVA" value="16">
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <h4>¿Quiere la respuesta en el servidor?</h4>
-                </td>
-                <td>
-                    <select id="selTipoRespuesta" name="tipoRespuesta">                                                
-                        <option value="1">NO</option>
-                        <option value="2">SI</option>
-                    </select>
-                </td>
-            </tr>
-
+            
             <tr>
                 <td>                  
                     <input type="button" value="Calcular" id="btnCalcular">

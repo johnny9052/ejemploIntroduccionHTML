@@ -1,0 +1,78 @@
+/*https://www.pedroventura.com/desarrollo-web/uso-basico-css3-media-queries-para-crear-versiones-web-para-movil/*/
+
+/*
+  SCREEN: Used for computer screens, tablets, smart-phones etc.
+  PRINT: Used for printers
+  ALL: Used for all media type devices
+*/
+
+
+/* Smartphones (vertical and horizontal) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body{
+        background-color: blue;
+    }
+}
+
+/* Smartphones (horizontal) ----------- */
+@media only screen
+and (min-width : 321px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* Smartphones (vertical) ----------- */
+@media only screen
+and (max-width : 320px) {
+    body{
+        background-color: green;
+    }
+}
+
+/* iPads (vertical and horizontal) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* iPads (horizontal) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    body{
+        background-color: brown;
+    }
+}
+
+/* iPads (vertical) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    body{
+        background-color: black;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    body{
+        background-color: purple;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    body{
+        background-color: green;
+    }
+}
