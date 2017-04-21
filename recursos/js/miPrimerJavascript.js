@@ -4,14 +4,8 @@ function mostrarMensaje() {
 }
 
 
-
-
-
-
-
-
-
 function saludar() {
+    
     var nombre = document.getElementById("txtNombre").value;
     var apellido = document.getElementById("txtApellido").value;
 
@@ -30,6 +24,7 @@ function saludar() {
 
 
 function calcularFactorial() {
+    
     var num = document.getElementById("txtNumeroFactorial").value;
 
     var resultado = 1;
@@ -59,6 +54,7 @@ function calcularIVA() {
 
 
 
+
 function queGusta() {
     var opcion;
     for (var i = 0; i < document.formu.rdEj5.length; i++) {
@@ -68,6 +64,12 @@ function queGusta() {
     }
     alert("Lo que te gusta es " + document.formu.rdEj5[opcion].value);
 }
+
+
+
+
+
+
 
 
 
@@ -103,7 +105,6 @@ function mostrarOcultar() {
 
 
 function cambiarEstilo(color) {
-
     if (color === "rojo") {
         document.getElementById("recuadroColor").style.backgroundColor = "red";
     }

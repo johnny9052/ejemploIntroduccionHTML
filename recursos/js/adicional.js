@@ -1,14 +1,9 @@
 
 
 function numeroAleatorio() {
-    alert(Math.floor(Math.random() * (20 - 10 + 1)) + 10);
+    alert(Math.floor(Math.random() * (100 - 1 + 1)) + 1);
     //Math.floor(Math.random() * (MAX - MIN + 1)) + MIN;
 }
-
-
-
-
-
 
 
 
@@ -26,16 +21,8 @@ function cast() {
 
 
 function iniciarAccion() {
-    setTimeout(function () {
-        alert("Hola mundo");        
-    }, 1500);
+    setTimeout(function (){alert("Hola mundo");}, 5000);
 }
-
-
-
-
-
-
 
 
 function iniciarAccionInfinita() {

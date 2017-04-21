@@ -32,10 +32,12 @@ and open the template in the editor.
                     <h3>2. Ejercicio: Saludador</h3>
                 </td>
                 <td>
-                    <label>Nombre</label> <input type="text" id="txtNombre"/>
+                    <label>Nombre</label> 
+                    <input type="text" id="txtNombre"/>
                 </td>
                 <td>
-                    <label>Apellido</label> <input type="text" id="txtApellido"/>
+                    <label>Apellido</label> 
+                    <input type="text" id="txtApellido"/>
                 </td>
                 <td>
                     <input type="button" value="Saludar" onclick="saludar();"/>
@@ -102,6 +104,7 @@ and open the template in the editor.
                                                     value="Carros">
                         <label>Aviones</label><input id="rb3" type="radio" name="rdEj5" 
                                                      value="Aviones">
+                  
                     </form>
                 </td>
                 <td>
